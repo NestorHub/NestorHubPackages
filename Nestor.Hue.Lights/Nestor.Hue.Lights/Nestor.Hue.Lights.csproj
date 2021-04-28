@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.3.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Api de gestion des lampes Philips Hue</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0-preview7.19362.4" />
+    <PackageReference Include="Q42.HueApi" Version="3.10.1" />
+    <PackageReference Include="Q42.HueApi.ColorConverters" Version="3.10.1" />
+  </ItemGroup>
+
+</Project>

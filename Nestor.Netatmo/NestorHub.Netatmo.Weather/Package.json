@@ -1,0 +1,49 @@
+{
+  "id": "NestorWeather",
+  "name": "NestorWeather Netatmo",
+  "description": "Récupérations des informations météo des devices Netatmo",
+  "version": "1.0.0",
+  "statevalues": [
+    {
+      "name": "Station (nom donné au module)",
+      "defaultValue": "",
+      "description": "Données du module station"
+    },
+    {
+      "name": "Outdoor (nom donné au module)",
+      "defaultValue": "",
+      "description": "Données du module extérieur"
+    },
+    {
+      "name": "Indoor (nom donné au module)",
+      "defaultValue": "",
+      "description": "Données d'un module intérieur optionnel"
+    },
+    {
+      "name": "WinGauge (nom donné au module)",
+      "defaultValue": "",
+      "description": "Données du module anémométre"
+    },
+    {
+      "name": "RainGauge (nom donné au module)",
+      "defaultValue": "",
+      "description": "Données du module pluviométre"
+    }
+  ],
+  "parameter": {
+    "clientId": "587790346d1dbd5e1c8ba445",
+    "clientSecret": "zvUT8N2M6yeARhswSYhCn0THSRM2KsKMQP9afV",
+    "username": "[YOUR USERNAME]",
+    "password": "[YOUR PASSWORD]",
+    "deviceMacAddress": "[YOUR DEVICE MAC ADDRESS]",
+    "interval": 10
+  },
+  "parameterDescription": {
+    "clientId": "La clé Client id du compte Netatmo pour l'application",
+    "clientSecret": "La clé Client Secret du compte Netatmo pour l'application",
+    "username": "Nom d'utilisateur du compte Netatmo à utiliser",
+    "password": "Mot de passe du compte Netatmo à utiliser",
+    "deviceMacAddress": "L'adresse mac de la station météo que l'on souhaite interroger",
+    "interval": "Interval de vérification des données en ligne pour le device en min (ne peut être inférieur à 10)"
+  }
+}

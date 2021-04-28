@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nestor.Hue.Lights", "Nestor.Hue.Lights\Nestor.Hue.Lights.csproj", "{E4425C4F-7CF1-4D04-BB9F-4210B53ABD11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nestor.Hue.Lights.Tests", "Nestor.Hue.Lights.Tests\Nestor.Hue.Lights.Tests.csproj", "{5E2034F7-9C06-43D6-9520-427EF237917D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{73567285-A135-465A-AF32-62A5228B8127}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeTools", "Tools\BridgeTools\BridgeTools.csproj", "{6869054E-1D16-4B64-82A9-FC4896A2AC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nestor.Hue.Service", "Nestor.Hue.Service\Nestor.Hue.Service.csproj", "{2DB54DB5-C9A7-4166-B05D-45F1044FE7BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4425C4F-7CF1-4D04-BB9F-4210B53ABD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4425C4F-7CF1-4D04-BB9F-4210B53ABD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4425C4F-7CF1-4D04-BB9F-4210B53ABD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4425C4F-7CF1-4D04-BB9F-4210B53ABD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2034F7-9C06-43D6-9520-427EF237917D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2034F7-9C06-43D6-9520-427EF237917D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2034F7-9C06-43D6-9520-427EF237917D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2034F7-9C06-43D6-9520-427EF237917D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6869054E-1D16-4B64-82A9-FC4896A2AC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6869054E-1D16-4B64-82A9-FC4896A2AC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6869054E-1D16-4B64-82A9-FC4896A2AC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6869054E-1D16-4B64-82A9-FC4896A2AC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB54DB5-C9A7-4166-B05D-45F1044FE7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB54DB5-C9A7-4166-B05D-45F1044FE7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB54DB5-C9A7-4166-B05D-45F1044FE7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB54DB5-C9A7-4166-B05D-45F1044FE7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6869054E-1D16-4B64-82A9-FC4896A2AC88} = {73567285-A135-465A-AF32-62A5228B8127}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82E0BEDF-2C65-465C-BF45-1D613795BC52}
+	EndGlobalSection
+EndGlobal

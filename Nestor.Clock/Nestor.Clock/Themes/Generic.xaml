@@ -1,0 +1,18 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nestor.Clock.Themes">
+
+    
+    <Color x:Key="UnitColor">#ffffffff</Color>
+    <Color x:Key="UnitLightColor">#ffb6b6b6</Color>
+    <Color x:Key="BackgroundTabItemColor">#9992aeb4</Color>
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}" />
+    <SolidColorBrush x:Key="PrimaryLightBrush" Color="{StaticResource PrimaryLightColor}" />
+    <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDarkColor}" />
+    <SolidColorBrush x:Key="UnitBrush" Color="{StaticResource UnitColor}" />
+    <SolidColorBrush x:Key="UnitLightBrush" Color="{StaticResource UnitLightColor}" />
+    <SolidColorBrush x:Key="BackgroundTabItemBrush" Color="{StaticResource BackgroundTabItemColor}" />
+    
+</ResourceDictionary>

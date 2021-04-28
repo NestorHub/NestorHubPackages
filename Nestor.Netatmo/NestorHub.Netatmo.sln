@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestorHub.Netatmo.Weather", "NestorHub.Netatmo.Weather\NestorHub.Netatmo.Weather.csproj", "{3325A05C-A3D5-437A-BCB4-872E1C9A2735}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestorHub.Netatmo.Weather.Tests", "NestorHub.Netatmo.Weather.Tests\NestorHub.Netatmo.Weather.Tests.csproj", "{F473DB8E-DE0A-4165-B1B0-9E9A6F1D23EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestorHub.Netatmo.Common.Tests", "NestorHub.Netatmo.Common.Tests\NestorHub.Netatmo.Common.Tests.csproj", "{8944CB3A-58B2-4F71-A391-7B9A6884D173}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{926F98A3-35B0-4675-917D-FAE25A7810B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weather", "Weather", "{9F468FD2-91B7-483C-BE72-7AC69CA324FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestorHub.Netatmo.Common", "NestorHub.Netatmo.Common\NestorHub.Netatmo.Common.csproj", "{B4BC7380-AACA-4E8D-9B34-93318F63D67F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{186C9810-CE48-4A5D-A56E-C750CEC82BD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestorHub.Netatmo.Security", "NestorHub.Netatmo.Security\NestorHub.Netatmo.Security.csproj", "{9A542988-2734-4C1D-AF19-87AA85CF5DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestorHub.Netatmo.Security.Tests", "NestorHub.Netatmo.Security.Tests\NestorHub.Netatmo.Security.Tests.csproj", "{C79E3FC7-3F88-4A62-B424-35B8D15137F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3325A05C-A3D5-437A-BCB4-872E1C9A2735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3325A05C-A3D5-437A-BCB4-872E1C9A2735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3325A05C-A3D5-437A-BCB4-872E1C9A2735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3325A05C-A3D5-437A-BCB4-872E1C9A2735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F473DB8E-DE0A-4165-B1B0-9E9A6F1D23EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F473DB8E-DE0A-4165-B1B0-9E9A6F1D23EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F473DB8E-DE0A-4165-B1B0-9E9A6F1D23EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F473DB8E-DE0A-4165-B1B0-9E9A6F1D23EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8944CB3A-58B2-4F71-A391-7B9A6884D173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8944CB3A-58B2-4F71-A391-7B9A6884D173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8944CB3A-58B2-4F71-A391-7B9A6884D173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8944CB3A-58B2-4F71-A391-7B9A6884D173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BC7380-AACA-4E8D-9B34-93318F63D67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BC7380-AACA-4E8D-9B34-93318F63D67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BC7380-AACA-4E8D-9B34-93318F63D67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BC7380-AACA-4E8D-9B34-93318F63D67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A542988-2734-4C1D-AF19-87AA85CF5DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A542988-2734-4C1D-AF19-87AA85CF5DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A542988-2734-4C1D-AF19-87AA85CF5DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A542988-2734-4C1D-AF19-87AA85CF5DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79E3FC7-3F88-4A62-B424-35B8D15137F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79E3FC7-3F88-4A62-B424-35B8D15137F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79E3FC7-3F88-4A62-B424-35B8D15137F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79E3FC7-3F88-4A62-B424-35B8D15137F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3325A05C-A3D5-437A-BCB4-872E1C9A2735} = {9F468FD2-91B7-483C-BE72-7AC69CA324FF}
+		{F473DB8E-DE0A-4165-B1B0-9E9A6F1D23EC} = {9F468FD2-91B7-483C-BE72-7AC69CA324FF}
+		{8944CB3A-58B2-4F71-A391-7B9A6884D173} = {926F98A3-35B0-4675-917D-FAE25A7810B8}
+		{B4BC7380-AACA-4E8D-9B34-93318F63D67F} = {926F98A3-35B0-4675-917D-FAE25A7810B8}
+		{9A542988-2734-4C1D-AF19-87AA85CF5DFA} = {186C9810-CE48-4A5D-A56E-C750CEC82BD3}
+		{C79E3FC7-3F88-4A62-B424-35B8D15137F6} = {186C9810-CE48-4A5D-A56E-C750CEC82BD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA51C4F0-3CB5-40BC-8106-52C79A05D197}
+	EndGlobalSection
+EndGlobal

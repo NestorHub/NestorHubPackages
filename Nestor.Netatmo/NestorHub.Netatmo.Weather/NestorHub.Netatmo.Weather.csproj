@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kopigi.Utils" Version="2.1.201902.1" />
+    <PackageReference Include="NestorHub.Sentinels.Api" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NestorHub.Netatmo.Common\NestorHub.Netatmo.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Package.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

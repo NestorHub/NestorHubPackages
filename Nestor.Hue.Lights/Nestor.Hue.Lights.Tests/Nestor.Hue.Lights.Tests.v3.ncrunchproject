@@ -1,0 +1,27 @@
+﻿<ProjectConfiguration>
+  <Settings>
+    <IgnoredTests>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_true_on_stop_light</TestName>
+      </NamedTestSelector>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_true_on_stop_one_light</TestName>
+      </NamedTestSelector>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_true_on_start_one_light</TestName>
+      </NamedTestSelector>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_true_on_set_color_one_light</TestName>
+      </NamedTestSelector>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_on_or_state_on_one_light</TestName>
+      </NamedTestSelector>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_true_on_stop_all_light</TestName>
+      </NamedTestSelector>
+      <NamedTestSelector>
+        <TestName>Nestor.Hue.Lights.Tests.LightsManagerShould.return_true_on_start_all_light</TestName>
+      </NamedTestSelector>
+    </IgnoredTests>
+  </Settings>
+</ProjectConfiguration>

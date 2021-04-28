@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nestor.Clock.Themes.Primary">
+    
+    <Color x:Key="PrimaryColor">#ff0a6680</Color>
+    <Color x:Key="PrimaryLightColor">#ff1694b8</Color>
+    <Color x:Key="PrimaryDarkColor">#ff08495b</Color>
+</ResourceDictionary>

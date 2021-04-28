@@ -1,0 +1,22 @@
+{
+  "id": "NestorHue",
+  "name": "NestorHue",
+  "description": "Récupérations des statuts des lumiéres Philips Hue",
+  "version": "1.0.0",
+  "statevalues": [],
+  "parameter": {
+    "hueKey": "Ta519Bn0t3JvVLORifBtAQhk09RqI6ki2DUBuNQi",
+    "hueServerIp": "192.168.1.26",
+    "interval": 10,
+    "hoursoff": [
+      { "hour": "00:00:00" },
+      { "hour": "03:00:00" }
+    ],
+    "restarthoursoff" : "23:59:00" 
+  },
+  "parameterDescription": {
+    "hueKey": "La clé d'assocaition avec la passerelle Hue",
+    "hueServerIp": "L'adresse IP de la passerelle Hue",
+    "interval": "Interval de vérification des données en secondes (ne peut être inférieur à 5)"
+  }
+}
